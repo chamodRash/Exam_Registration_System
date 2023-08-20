@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&display=swap");
+
+:root {
+  --primary: #5465ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.4);
+  padding: 40px 5px;
+}
+.btn {
+  border-radius: 9999px;
+  border-width: 2px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: 500;
+}
+
+.login-bg {
+  height: 100vh;
+  background-image: url("../img/login_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-input {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #acacac;
+  border-radius: 999px;
+  padding: 5px 15px;
+  margin: 5px auto;
+}
+.text-input i {
+  color: var(--primary);
+}
+.text-input div {
+  height: 90%;
+  width: 1px;
+  background-color: #999;
+}
+.text-input input {
+  outline: none;
+}
+
+.otp-input-box {
+  height: 35px;
+  width: 35px;
+  /* border: ; */
+  text-align: center;
+  background-color: #bfd7ff;
+  border-radius: 5px;
+  outline: none;
+}
+/* .otp-input-box:focus {
+  outline: 1px solid blue;
+} */
