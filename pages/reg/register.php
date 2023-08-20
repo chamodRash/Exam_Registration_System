@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../img/logo/ERS_logo_icon.ico"
+      href="../../img/logo/ERS_logo_icon.ico"
       type="image/x-icon" />
     <title>ERS | Register Page</title>
     <script
       src="https://kit.fontawesome.com/5ce4b972fd.js"
       crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
   </head>
 
   <body class="w-full h-full">
@@ -21,7 +21,7 @@
       <!-- Mobile n tab view design -->
       <div class="lg:hidden flex flex-col items-center">
         <img
-          src="../img/logo/ERS_logo.gif"
+          src="../../img/logo/ERS_logo.gif"
           alt="ERS_logo"
           class="w-28 align-middle" />
         <h2 class="my-5 text-lg">Exam Registration System</h2>
@@ -63,7 +63,7 @@
         </form>
         <div class="text-center mt-7">
           <p>Already have an account?</p>
-          <a href="login.html" class="text-[var(--primary)] underline"
+          <a href="../login/login.php" class="text-[var(--primary)] underline"
             >Sign-In</a
           >
         </div>
@@ -74,12 +74,12 @@
         <div>
           <h2>Exam Registration System</h2>
           <img
-            src="../img/undraw_online_test_re_kyfx.svg"
+            src="../../img/undraw_online_test_re_kyfx.svg"
             alt="Online test vector img"
             class="w-60" />
           <div>
             <p>Already have an account?</p>
-            <a href="login.html">Sign-In</a>
+            <a href="../login/login.php">Sign-In</a>
           </div>
         </div>
         <div>

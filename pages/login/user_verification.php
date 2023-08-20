@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../img/logo/ERS_logo_icon.ico"
+      href="../../img/logo/ERS_logo_icon.ico"
       type="image/x-icon" />
     <title>ERS | Verification Page</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/5ce4b972fd.js"
@@ -21,7 +21,7 @@
       <!-- Mobile n tab view design -->
       <div class="lg:hidden flex flex-col items-center">
         <img
-          src="../img/logo/ERS_logo.gif"
+          src="../../img/logo/ERS_logo.gif"
           alt="ERS_logo"
           class="w-28 align-middle" />
         <h2 class="mt-3 mb-5 text-lg">Exam Registration System</h2>
@@ -79,7 +79,7 @@
         <div class="text-center mt-7">
           <p class="text-sm">Didn't Receive the OTP?</p>
           <a
-            href="register.html"
+            href="#"
             class="text-sm text-[var(--primary)] underline"
             >Resend</a
           >
@@ -87,6 +87,6 @@
       </div>
     </div>
 
-    <script src="../js/script.js"></script>
+    <script src="../../js/script.js"></script>
   </body>
 </html>
